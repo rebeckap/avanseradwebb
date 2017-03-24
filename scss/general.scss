@@ -1,0 +1,23 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, .h1, .h2, .h3 {
+	margin: 0;
+
+}
+
+.active {
+	font-weight: bold;
+}
+
+.dropdown {
+	display: none;
+}
+
+/*.show {
+	display: block;
+}*/
+
+.mb50 {margin-bottom: 50px; }
+.mb90 {margin-bottom: 90px; }

@@ -1,0 +1,38 @@
+section {
+	.hero {
+		background-color: #dee;
+		//background-image: url('img/');
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: center center;
+		height: 350px;
+
+		> .text {
+			font-size: 18px;
+			color: $white;
+			margin-left: 100px;
+			padding-top: 50px;
+
+			h1 {
+				font-size: 44px;
+				margin-bottom: 7px;
+
+			}
+		}
+	}
+
+	.container {
+
+		.row {
+
+			h2 {
+				margin-bottom: 7px;
+			}
+			
+			a {
+				color: $black;
+				text-decoration: underline;
+			}
+		}
+	}	
+}

@@ -1,0 +1,51 @@
+#header {
+	background-color: $lightgrey; // Ändra färg
+	height: 80px;/*
+	position: fixed;*/
+
+	.logo {
+		color: $black; // Ändra färg
+		line-height: 80px;
+		font-size: 24px;
+	}
+
+	.bigmenu {
+		text-transform: uppercase;
+		ul {
+			float: right;
+
+			> li {
+				float: left;
+				list-style: none;
+				line-height: 80px;
+				margin-left: 16px;
+
+				> a {
+					color: $black; // Ändra färg
+					font-size: 16px;
+				}
+
+				> ul {
+					float: right;
+
+					> li {
+						float: left;
+						list-style: none;
+						z-index: 99;
+						line-height: normal;
+
+						.text {
+							font-size: 16px;
+							margin-top: 7px;
+						}
+
+						> a {
+							color: $black; // Ändra färg
+							line-height: normal;
+						}
+					}
+				}
+			}
+		}
+	}
+}
